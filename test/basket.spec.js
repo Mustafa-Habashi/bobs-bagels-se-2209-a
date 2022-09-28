@@ -1,4 +1,4 @@
-const { assertEquals } = require('../../testing-framework');
+const { assertEquals } = require('../testing-framework');
 const Basket = require('../src/basket')
 
 
@@ -64,3 +64,36 @@ result = undefined;
 // actual = undefined;
 // result = undefined;
 
+
+// Test 1 is anything added to the basket?
+
+
+/* console.log(`==================`)
+console.log(`Test 3 - basket is overfull`)
+
+// Arrange
+basket = new Basket();
+item = { id: 'item1' }
+expected = 'You have reached your basket limit';
+
+// Act
+basket.isBasketFull()
+basket.add(item)
+basket.add({ id: `item2` })
+basket.add({ id: `item3` })
+basket.add({ id: `item4` })
+
+actual = 'You have reached your basket limit';
+
+
+// Assert
+result = assertEquals(actual, expected)
+console.log(`Test 3: Something cannot be added to the basket: ${result}`)
+
+// Cleanup
+
+basket = null;
+item = null;
+expected = undefined;
+actual = undefined;
+result = undefined; */
